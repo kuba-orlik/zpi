@@ -1,4 +1,4 @@
-# Dokumentacja projektu Sealious
+# Dokumentacja projektu "Dokumentacja Frameworka Sealious"
 ## Zakres projektu
 
 * Wersja dokumentu: 1.1
