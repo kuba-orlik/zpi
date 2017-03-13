@@ -21,7 +21,7 @@
 
 ## 3. Opis produktów 
 
-### Wymagania użytecznościowe
+### Wymagania użytecznościowe (niefunkcjonalne)
 
 * Podział na wersje aplikacji
 * Z jakich części składa się dokumentacja
@@ -32,7 +32,7 @@
 * Strona powinna być responsywna
 * Powinna udostępniać wyszukiwanie
 
-### Wymagania merytoryczne
+### Wymagania merytoryczne (funkcjonalne)
 
 Dokumentacja Sealiousa: 
 
