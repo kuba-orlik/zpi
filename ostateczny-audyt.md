@@ -24,11 +24,17 @@ header-includes:
 
 \newpage
 
-# Uwagi ogólne
+# Zakres Projektu
+
+* “Grafy” to projekt poświęcony wizualizacji i nauce algorytmów wyszukiwania ścieżek w grafie. Celem tego projektu jest zbudowanie aplikacji, która wyjaśni działania poszczególnych algorytmów wyszukiwania najkrótszej ścieżki oraz pomoże w ich nauce. Aplikacja ta zostanie zbudowana w oparciu na nowe technologie projektowania trójwymiarowych aplikacji. Jest to między innymi silnik graficzny Unity3D, jak i programy do projektowania obiektów trójwymiarowych.
+
+# Czas realizacji projektu
+
+* Uwaga odnośnie harmonogramu: harmonogram prac przewiduje czas na zaimplementowanie wizualizacji, ale nie przewiduje czasu na jej *projektowanie*. Mimo, że klient wymaga aby "aplikacja ma być prosta w obsłudze, interfejs ma być czytelny i nie sprawiać problemów podczas działania". Bez poświęcenia czasu na projektowanie przejrzystego interfejsu może być ciężko osiągnąć taki rezultat.
+
+# Jakość produktów i projektu
 
 * W treść dokumentu wkradły się liczne błędy składniowe oraz interpunkcyjne, co może być odebrane przez niektórych jako brak staranności.
-
-# Uwagi merytoryczne
 
 * Punkt 4 - "Wymagania Projektowe", podpunkt 2:
 
@@ -41,12 +47,6 @@ header-includes:
 	> edukacyjnym.
 	
 	wskazuje raczej, że wybór Unity3D został dokonany przez wykonawców i był zmotywowany chęcią poznania i nauki tej technologii.
-
-* Przypadki użycia zakładają, że własne grafy są wgrywane do projektu za pomocą plików tekstowych. Składnia tych plików może okazać się punktem zapalnym procesu realizacji programu. Być może nie należy pozostawiać kwestii tego, czy format pliku jest zrozumiały i wygodny w użyciu programistom implementującym jego parsowanie. W planowaniu wczesnych faz projektu należy uwzględnić czas na uzgadnianie z klientem tej składni, aby uniknąć zmian w późniejszych fazach realizacji.
-
-	Być może warto zapoznać się z językiem DOT, który został stworzony dokładnie do opisów grafów. Jest otwartym standardem opartym o pliki tekstowe.
-	
-	> https://en.wikipedia.org/wiki/DOT_(graph_description_language)
 
 * "Punkt 11 - Kamienie milowe" nie przewiduje określonych jako "ważną część projektu" funkcjonalności pomocy teoretycznej
 
@@ -68,11 +68,26 @@ header-includes:
 	
 	Można założyć, że w przyszłości ktoś stworzy program, który pozwoli generować pliki tekstowe opisujące grafy w sposób zrozumiały dla programu opisywanego w audytowanym dokumencie (obsługa takich plików mieści się w zakresie projektu). W takim wypadku *będzie* istniała możliwość importowania wyników innego programu.
 
-* Uwaga odnośnie harmonogramu: harmonogram prac przewiduje czas na zaimplementowanie wizualizacji, ale nie przewiduje czasu na jej *projektowanie*. Mimo, że klient wymaga aby "aplikacja ma być prosta w obsłudze, interfejs ma być czytelny i nie sprawiać problemów podczas działania". Bez poświęcenia czasu na projektowanie przejrzystego interfejsu może być ciężko osiągnąć taki rezultat.
 
 * Punkt "7. Ograniczenia projektowe" opisuje tylko potencjalne ryzyko, jakie powoduje korzystanie z Unity3D. Jego aktualna zawartość powinna naszym zdaniem znaleźć się punkcie "Ryzyka zidentyfikowane w fazie początkowej", a w jego miejscu powinna znaleźć się analiza faktycznych ograniczeń czasowych/budżetowych/jakościowych (lub ich braku).
 
 * Punkt "10. Ryzyka zidentyfikowane w fazie początkowej" opisuje funkcjonalności, które być może nie zostaną wdrożone. Zdaje się, że warto ustalić z klientem, które funkcjonalności są wymagane, a które opcjonalne, a ten punkt zakresu poświęcić na opis zagrożeń dla samego procesu realizacji projektu.
 
+
+# Ocena ryzyka
+
+* Przypadki użycia zakładają, że własne grafy są wgrywane do projektu za pomocą plików tekstowych. Składnia tych plików może okazać się punktem zapalnym procesu realizacji programu. Być może nie należy pozostawiać kwestii tego, czy format pliku jest zrozumiały i wygodny w użyciu programistom implementującym jego parsowanie. W planowaniu wczesnych faz projektu należy uwzględnić czas na uzgadnianie z klientem tej składni, aby uniknąć zmian w późniejszych fazach realizacji.
+
+	Być może warto zapoznać się z językiem DOT, który został stworzony dokładnie do opisów grafów. Jest otwartym standardem opartym o pliki tekstowe.
+	
+	> https://en.wikipedia.org/wiki/DOT_(graph_description_language)
+	
 * W zakresie projektu nie znalazło się wytłumaczenie, w jaki sposób grafika 3D pomoże zrozumieć działanie algorytmu, zamiast utrudniać ten proces. Nie jest wytłumaczone, jakie kryteria musi spełniać wizualizacja, aby zapewnić "czytelniejsze przekazanie informacji". Mając na uwadze, że jest więcej sposobów, w jaki grafika 3D może zmniejszyć czytelność informacji niż ją zwiększyć, zdecydowanie przydałoby się ten aspekt doprecyzować i przewidzieć w harmonogramie projektu czas poświęcony na projektowanie czytelnej reprezentacji.
+
+# Analiza struktury zasobów ludzkich
+* Projekt jest realizowany przez dwie osoby. Role każdej z osób nie zostały określone w dokumencie.
+
+# Zarządzanie komunikacją 
+ * Brak danych w dokumencie
+
 
